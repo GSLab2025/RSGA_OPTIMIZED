@@ -9,6 +9,22 @@ coupled to a short-range atomistic model. The optimized implementation preserves
 the original RSGA physics while improving production reliability and GPU
 efficiency in strict float64 workflows.
 
+## Hardware Scope
+
+The optimized implementation is written at the PyTorch tensor-operation level;
+it does not require a custom NVIDIA-only CUDA extension for correctness. The
+main algorithmic changes--shared geometry context, reciprocal-grid caching,
+chunked large-graph evaluation, and safer `torch.compile` fallback behavior--are
+therefore general and should run on CPU or any PyTorch-supported accelerator
+with the required operations.
+
+The performance path, however, was designed and validated for strict float64
+production runs on NVIDIA CUDA GPUs, specifically A100 and H100-class hardware.
+The default documented runtime settings disable TF32 and optional fp32 fast
+evaluation to preserve long-range physics. CPU, AMD GPU, Apple silicon, or other
+non-CUDA backends should be considered portable but not performance-validated;
+benchmark and numerically validate those platforms before production use.
+
 ## Files
 
 - `k_frequencies_triclinic.py`: builds triclinic reciprocal-space modes,
