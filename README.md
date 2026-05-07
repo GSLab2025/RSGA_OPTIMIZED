@@ -66,7 +66,11 @@ The full MACE-integrated implementation is maintained in
 [`GSLab2025/RSGA_MACE_OPT`](https://github.com/GSLab2025/RSGA_MACE_OPT).
 That repository embeds these optimized RSGA modules into the MACE interaction
 stack as a layerwise embedding correction, not as a separate additive energy
-model.
+model. Example entry point in the modified MACE stack:
+
+```bash
+mace_run_train --model="MACERSGA" --pair_repulsion  --distance_transform="Agnesi"  ...
+```
 
 ## Provenance
 
