@@ -1,2 +1,1 @@
-# RSGA_OPTIMIZED
-Reciprocal Space Gated Attention (Optimized)
+# Reciprocal Space Gated Attention (Optimized)
