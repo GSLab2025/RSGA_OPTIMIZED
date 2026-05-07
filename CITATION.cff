@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "RSGA: Reciprocal Space Gated Attention"
+message: "If you use this software, please cite it using this metadata or the Zenodo DOI for the corresponding release."
+type: software
+license: MIT
+authors:
+  - family-names: Thakur
+    given-names: Atul C.
+  - family-names: Vazquez-Mayagoitia
+    given-names: Alvaro
+  - family-names: Sivaraman
+    given-names: Ganesh
+repository-code: "https://github.com/GSLab2025/RSGA"
+url: "https://github.com/GSLab2025/RSGA"
+abstract: >-
+  Core reference implementation of Reciprocal Space Gated Attention (RSGA),
+  a method for introducing periodic reciprocal-space long-range corrections
+  into short-range local models, with a pointer to the integrated
+  GSLab2025/MACE_RSGA variant.
+keywords:
+  - reciprocal-space gated attention
+  - gated linear attention
+  - long-range interactions
+  - machine learning interatomic potentials
+  - MACE
+  - periodic systems
