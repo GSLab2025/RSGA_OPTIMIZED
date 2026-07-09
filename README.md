@@ -72,6 +72,13 @@ model. Example entry point in the modified MACE stack:
 mace_run_train --model="MACERSGA" --pair_repulsion  --distance_transform="Agnesi"  ...
 ```
 
+## Provenance
+
+This optimized code descends from the published RSGA implementation in
+[`GSLab2025/RSGA`](https://github.com/GSLab2025/RSGA) and the MACE-integrated
+MACERSGA implementation in
+[`GSLab2025/MACE_RSGA`](https://github.com/GSLab2025/MACE_RSGA).
+
 ## How to Cite?
 
 If you are using the RSGA and MACERSGA workflow in your research, please cite us as:
@@ -114,10 +121,3 @@ If you are using the RSGA and MACERSGA workflow in your research, please cite us
   doi={10.5281/zenodo.19673766},
   url={[https://doi.org/10.5281/zenodo.19673766](https://doi.org/10.5281/zenodo.19673766)}
 }```
-
-## Provenance
-
-This optimized code descends from the published RSGA implementation in
-[`GSLab2025/RSGA`](https://github.com/GSLab2025/RSGA) and the MACE-integrated
-MACERSGA implementation in
-[`GSLab2025/MACE_RSGA`](https://github.com/GSLab2025/MACE_RSGA).
