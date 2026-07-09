@@ -120,4 +120,4 @@ If you are using the RSGA and MACERSGA workflow in your research, please cite us
   publisher={Zenodo},
   doi={10.5281/zenodo.19673766},
   url={[https://doi.org/10.5281/zenodo.19673766](https://doi.org/10.5281/zenodo.19673766)}
-}```
+}
