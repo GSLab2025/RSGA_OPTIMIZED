@@ -69,7 +69,7 @@ stack as a layerwise embedding correction, not as a separate additive energy
 model. Example entry point in the modified MACE stack:
 
 ```bash
-mace_run_train --model="MACERSGA" --pair_repulsion  --distance_transform="Agnesi"  ...
+mace_run_train --model="MACERSGA"  --max_L=0  --pair_repulsion  --distance_transform="Agnesi" --forces_weight=1000 --energy_weight=100 --swa_forces_weight=10 --swa_energy_weight=1000 ...
 ```
 
 ## Provenance
