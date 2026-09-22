@@ -97,8 +97,7 @@ If you are using the RSGA and MACERSGA workflow in your research, please cite us
 ### BibTeX
 
 ```bibtex
-@article{
-doi:10.26434/chemrxiv.15009227/v1,
+@article{Evangelista2026In2Se3,
 author = {Igor Evangelista  and Michaela Cohen  and Atul C. Thakur  and Anderson Janotti  and Chris Benmore  and Tingyi Gu  and Ganesh Sivaraman },
 title = {Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics},
 journal = {ChemRxiv},
