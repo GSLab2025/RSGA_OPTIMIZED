@@ -83,6 +83,8 @@ MACERSGA implementation in
 
 If you are using the RSGA and MACERSGA workflow in your research, please cite us as:
 
+* **Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics.**Igor Evangelista, Michaela Cohen, Atul C. Thakur, et al.  ChemRxiv. 22 September 2026. DOI: (10.26434/chemrxiv.15009227/v1)[https://doi.org/10.26434/chemrxiv.15009227/v1]
+
 * **Reciprocal Space Attention for Learning Long-Range Interactions** H. Ramasubramanian, A. Vazquez-Mayagoitia, G. Sivaraman, and A. C. Thakur.  
   *Poster in AI4Mat-NeurIPS-2025: NeurIPS 2025 Workshop on AI for Accelerated Materials Design.* Preprint: [arXiv:2510.13055](https://arxiv.org/abs/2510.13055).
 
@@ -118,12 +120,18 @@ eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15009227/v1}
   note={Poster in AI4Mat-NeurIPS-2025: NeurIPS 2025 Workshop on AI for Accelerated Materials Design}
 }
 
-@article{balantrapu2026neutron,
-  title={Neutron and X-ray Diffraction Reveal the Limits of Long-Range Machine Learning Potentials for Medium-Range Order in Silica Glass},
-  author={Balantrapu, S. H. and Thakur, A. C. and Benmore, C. J. and Sivaraman, G.},
-  journal={Journal of Physics: Materials},
-  year={2026},
-  doi={10.1088/2515-7639/ae8643}
+@article{Balantrapu_2026,
+doi = {10.1088/2515-7639/ae8643},
+url = {https://doi.org/10.1088/2515-7639/ae8643},
+year = {2026},
+month = {jul},
+publisher = {IOP Publishing},
+volume = {9},
+number = {3},
+pages = {035013},
+author = {Balantrapu, Sai Harshit and Thakur, Atul and Benmore, Chris and Sivaraman, Ganesh},
+title = {Neutron and x-ray diffraction reveal the limits of long-range machine learning potentials for medium-range order in silica glass},
+journal = {Journal of Physics: Materials}
 }
 
 @misc{thakur2026rsgacode,
