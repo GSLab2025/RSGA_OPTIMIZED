@@ -83,7 +83,7 @@ MACERSGA implementation in
 
 If you are using the RSGA and MACERSGA workflow in your research, please cite us as:
 
-* **Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics.**Igor Evangelista, Michaela Cohen, Atul C. Thakur, et al.  ChemRxiv. 22 September 2026. DOI: (10.26434/chemrxiv.15009227/v1)[https://doi.org/10.26434/chemrxiv.15009227/v1]
+* **Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics** Igor Evangelista, Michaela Cohen, Atul C. Thakur, et al.  *ChemRxiv. 22 September 2026. DOI: [10.26434/chemrxiv.15009227/v1](https://doi.org/10.26434/chemrxiv.15009227/v1)
 
 * **Reciprocal Space Attention for Learning Long-Range Interactions** H. Ramasubramanian, A. Vazquez-Mayagoitia, G. Sivaraman, and A. C. Thakur.  
   *Poster in AI4Mat-NeurIPS-2025: NeurIPS 2025 Workshop on AI for Accelerated Materials Design.* Preprint: [arXiv:2510.13055](https://arxiv.org/abs/2510.13055).
