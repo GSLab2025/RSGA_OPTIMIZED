@@ -95,6 +95,20 @@ If you are using the RSGA and MACERSGA workflow in your research, please cite us
 ### BibTeX
 
 ```bibtex
+@article{
+doi:10.26434/chemrxiv.15009227/v1,
+author = {Igor Evangelista  and Michaela Cohen  and Atul C. Thakur  and Anderson Janotti  and Chris Benmore  and Tingyi Gu  and Ganesh Sivaraman },
+title = {Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics},
+journal = {ChemRxiv},
+volume = {2026},
+number = {0922},
+pages = {},
+year = {2026},
+doi = {10.26434/chemrxiv.15009227/v1},
+URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15009227/v1},
+eprint = {https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15009227/v1}
+}
+
 @misc{ramasubramanian2025rsga,
   title={Reciprocal Space Attention for Learning Long-Range Interactions},
   author={Ramasubramanian, H. and Vazquez-Mayagoitia, A. and Sivaraman, G. and Thakur, A. C.},
